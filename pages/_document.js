@@ -6,9 +6,10 @@ class MyDocument extends Document {
         return { ...initialProps }
     }
 
+
     render() {
         return (
-            <Html lang="fa">
+            <Html lang="fa" dir="rtl">
                 <Head>
                     <title>My-Clothes</title>
                     <meta charSet="UTF-8"/>

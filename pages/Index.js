@@ -1,10 +1,52 @@
+import Header from "./Components/Header/Header";
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div >
-        <main>
+    <div>
 
-        </main>
+        <Header/>
+            <Navbar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     </div>
   )
 }
