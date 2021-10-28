@@ -1,5 +1,6 @@
-import '../styles/home.modul.css'
 import 'tailwindcss/tailwind.css'
+import '../styles/home.modul.css'
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

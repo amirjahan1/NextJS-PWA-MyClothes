@@ -80,9 +80,9 @@ const Navbar = (props) => {
                       </Link>
                   </li>
 
-                  <li className={`navbar ${router.pathname == "/about" ? "active" : ""}`}>
-                      <Link href="/">
-                          <a>
+                  <li className={`  navbar ${router.pathname == "/about" ? "active" : ""} `}>
+                      <Link className="text-blueGray-600" href="/">
+                          <a >
                               <InfoIcon/>
                              درباره ما
                           </a>
