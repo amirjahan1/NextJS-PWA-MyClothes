@@ -107,57 +107,21 @@ const Navbar = (props) => {
 
                                   <IconButton>
 
-                                      <ButtonGroup variant="contained"  aria-label="outlined primary button group"  >
+                                      <ButtonGroup variant="text" className="flex flex-row-reverse" aria-label="outlined primary button group">
+ <Tooltip title="LogIn" placement="top">
 
-<Box sx={{
-    display :'flex',
-    flexDirection : 'row-reverse'
-}}>
+     <Button><Link href="/"><a> <LoginIcon className="text-blueGray-600"/></a></Link> </Button>
 
+ </Tooltip>
 
-                                          <Button>
-                                              <Link href="/">
-                                                  <a>
-                                                      <Tooltip title="Register" placement="top">
-                                                          <IconButton>
-                                                              <PersonAddAlt1Icon/>
-                                                          </IconButton>
-                                                      </Tooltip>
-                                                  </a>
-                                              </Link>
+  <Tooltip title="Register" placement="top">
+      <Button><Link href="/"><a><PersonAddAlt1Icon  className="text-blueGray-600"/></a></Link>  </Button>
+  </Tooltip>
 
-                                          </Button>
-
-                                          <Button>
-                                              <Link href="/">
-                                                  <a>
-                                                      <Tooltip title="Login" placement="top">
-                                                          <IconButton>
-                                                              <LoginIcon/>
-                                                          </IconButton>
-                                                      </Tooltip>
-                                                  </a>
-                                              </Link>
-
-                                          </Button>
-
-                                            <Button>
-        <Link href="/">
-            <a>
-                <Tooltip title="Register" placement="top">
-                    <IconButton>
-                <span className="shoppingCard" style={{
-fontSize : '15px' , top :'10px' , position : 'relative'
-                }}>0</span>
-                <AddShoppingCartIcon/>
-                    </IconButton>
-                </Tooltip>
-            </a>
-        </Link>
-    </Button>
-</Box>
+   <Tooltip title="Shopping basket" placement="top">
+       <Button><Link href="/"><a> <span>0</span><AddShoppingCartIcon  className="text-blueGray-600"/></a></Link> </Button>
+   </Tooltip>
                                       </ButtonGroup>
-
                                   </IconButton>
 
 
@@ -183,6 +147,7 @@ fontSize : '15px' , top :'10px' , position : 'relative'
           </ul>
 
           </Box>
+
       </nav>
   )
 }
