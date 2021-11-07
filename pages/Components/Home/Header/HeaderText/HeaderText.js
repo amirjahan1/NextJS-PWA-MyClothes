@@ -20,13 +20,13 @@ const HeaderText = () => {
     }, []);
 
     return (
-        <h1>
+        <h3 className=" text-center">
             <TextTransition
                 data-headerTitr="null"
                 text={ TEXTS[index % TEXTS.length] }
                 springConfig={ presets.wobbly }
             />
-        </h1>
+        </h3>
     );
 };
 

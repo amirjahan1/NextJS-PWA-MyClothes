@@ -33,12 +33,10 @@ const Header = (props) => {
                 }}
                 >
                 <h2 className="headerTitr" >به مای کلودز خوش امدید</h2 >
-                    <HeaderText/>
-                    <div className="arrow bounce">
+                    <HeaderText className="w-full" />
 
-                    </div>
                 </Box>
-                <ArrowDownwardIcon  className="headerIcon"/>
+                <ArrowDownwardIcon  className="headerIcon text-6xl"/>
             </Box>
 
        </header>
