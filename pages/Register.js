@@ -8,7 +8,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LockIcon from '@mui/icons-material/Lock';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import Footer from "./Components/Footer/Footer";
+import Footer from "../Components/Footer/Footer";
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import "yup-phone";
@@ -84,7 +84,7 @@ const SignupSchema = Yup.object().shape({
                                          فرم ثبت نام
 
                                      </h1>
-                                     <Image src="/Gifs/Register/register.gif" height={250} width={250}/>
+                                     <Image alt="my clothes pwa build with Amir Jahan" src="/Gifs/Register/register.gif" height={250} width={250}/>
 
                                  </div>
 

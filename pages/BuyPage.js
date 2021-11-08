@@ -1,4 +1,4 @@
-import React , {Fragment , useState , useEffect} from "react";
+import React, {Fragment, useState, useEffect, useRef} from "react";
 import Image from "next/image"
 import {connect , useDispatch} from "react-redux";
 import { removeBasket } from "../Redux/Action/Action";
@@ -13,26 +13,25 @@ const BuyPage = (props) => {
 
     const dispatch = useDispatch();
 
+    const hiddenInput = useRef();
 
-    let AllHiddenInput=[]
-    let priceArray = []
-    let err = false
-    let endTotal = 0
 
-        useEffect(async () => {
+
+
+
+        useEffect( () => {
+            let priceArray = []
         if (props.BasketBuy) {
-
-            AllHiddenInput = document.querySelectorAll(".hiddenInput")
-            for (let i = 0; i < AllHiddenInput.length; i++) {
-                await priceArray.push(AllHiddenInput[i].value)
-                const reducer = (previousValue, currentValue) => parseFloat(previousValue) + parseFloat(currentValue);
-                if(priceArray.reduce(reducer) > -1){
+            props.BasketBuy.map((item) => {
+                priceArray.push(item.totalPrice)
+            })
+            const reducer = (previousValue, currentValue) => parseFloat(previousValue) + parseFloat(currentValue);
+            if (priceArray.length > 0) {
+                if (priceArray.reduce(reducer) > -1) {
                     setTotal(priceArray.reduce(reducer))
                 }
-
             }
         }
-
     }, [props.BasketBuy,props.BasketBuy.qty,props.BasketBuy.totalPrice]);
 
 
@@ -51,7 +50,7 @@ const BuyPage = (props) => {
                 <div
                     className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
                     <div className="flex-1">
-                        { props.BasketBuy.length < 1 ?  <h1 className="text-center text-xl ">محصولی انتخاب نکرده اید یا محصول انتخابی شما پاک شده دوباره تلاش کنید</h1>  :
+                        {
                             props.BasketBuy.map(
                                 (item,index)=>(
                                     <table key={index} className="w-full text-sm lg:text-base" cellSpacing="0">
@@ -71,7 +70,7 @@ const BuyPage = (props) => {
                                         <tr>
                                             <td className="hidden pb-4 md:table-cell">
 
-                                                <Image width="100%" height="100%" layout=""
+                                                <Image alt="my clothes pwa build with Amir Jahan" width="100%" height="100%" layout=""
                                                        src={item.image}
                                                        className="w-20 rounded" alt="Thumbnail"/>
 
@@ -92,15 +91,14 @@ const BuyPage = (props) => {
 
                                                         <div className="text-xl">
                                     <button className="text-2xl px-2"
-                                            onClick={()=>dispatch({
+                                            onClick={()=> item.qty > 0 ? dispatch({
                                            type : DECREASE_QTY,
                                              payload : {
                                                id : item.id,
                                                qty : item.qty,
                                                totalPrice : item.totalPrice
                                                          }
-                                                            })}
-                                    >-</button>
+                                                            }) : alert("مقدار تعداد باید بیشتر از 0 باشد")}> - </button>
                                                             {item.qty > 0 ? item.qty : 0}
 
                                                             <button className="text-xl px-2"
@@ -132,7 +130,7 @@ const BuyPage = (props) => {
               </span>
                                             </td>
                                         </tr>
-                                        <input type="hidden" className="hiddenInput"  defaultValue={item.price * item.qty} />
+                                        <input type="hidden" ref={hiddenInput} className="hiddenInput"  defaultValue={item.price * item.qty} />
                                         </tbody>
                                     </table>
                                 )

@@ -5,7 +5,7 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import LockIcon from '@mui/icons-material/Lock';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
-import Footer from "./Components/Footer/Footer";
+import Footer from "../Components/Footer/Footer";
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import "yup-phone";
@@ -66,7 +66,7 @@ const Login =()=>{
                                       ورود به حساب کاربری
 
                                     </h1>
-                                    <Image src="/Gifs/Login/login.gif" height={250} width={250}/>
+                                    <Image alt="my clothes pwa build with Amir Jahan" src="/Gifs/Login/login.gif" height={250} width={250}/>
 
                                 </div>
 

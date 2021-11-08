@@ -63,7 +63,7 @@ class SlickSlider extends Component {
                 <Slider {...settings}>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/shoes3.jpg"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/shoes3.jpg"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -76,7 +76,7 @@ class SlickSlider extends Component {
 
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/shirt1.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/shirt1.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -87,7 +87,7 @@ class SlickSlider extends Component {
                     </div>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/shirt2.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/shirt2.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -98,7 +98,7 @@ class SlickSlider extends Component {
                     </div>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/shirt3.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/shirt3.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -110,7 +110,7 @@ class SlickSlider extends Component {
                     </div>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/shoes1.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/shoes1.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -121,7 +121,7 @@ class SlickSlider extends Component {
                     </div>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/shoes3.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/shoes3.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -132,7 +132,7 @@ class SlickSlider extends Component {
                     </div>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/Jean1.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/Jean1.jpg" className="bg-white"  layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 
@@ -143,7 +143,7 @@ class SlickSlider extends Component {
                     </div>
 
                     <div className="bg-gray-200 p-4 m-2" >
-                        <Image src="/Images/SlickSlider/Jean2.jpg" className="bg-white" layout="responsive" width="350px" height="350px"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/SlickSlider/Jean2.jpg" className="bg-white" layout="responsive" width="350px" height="350px"/>
 
                         <div className="relative flex justify-center mt-2 items-center h-12">
 

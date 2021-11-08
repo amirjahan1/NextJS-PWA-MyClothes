@@ -229,7 +229,7 @@ const NavbarLG = (props) => {
                                   </ul>
 
 
-                                      <Image className="rounded-l-md relative w-full" src="/Images/megaMenu/male.webp" width={600} height={400} />
+                                      <Image alt="my clothes pwa build with Amir Jahan" className="rounded-l-md relative w-full" src="/Images/megaMenu/male.webp" width={600} height={400} />
 
                               </section>
                           </li>
@@ -312,7 +312,7 @@ const NavbarLG = (props) => {
                                   </ul>
 
 
-                                  <Image className="rounded-l-md relative w-full" src="/Images/megaMenu/male.webp" width={600} height={400} />
+                                  <Image alt="my clothes pwa build with Amir Jahan" className="rounded-l-md relative w-full" src="/Images/megaMenu/male.webp" width={600} height={400} />
 
                               </section>
                           </li>
@@ -395,7 +395,7 @@ const NavbarLG = (props) => {
                                   </ul>
 
 
-                                  <Image className="rounded-l-md relative w-full" src="/Images/megaMenu/male.webp" width={600} height={400} />
+                                  <Image alt="my clothes pwa build with Amir Jahan" className="rounded-l-md relative w-full" src="/Images/megaMenu/male.webp" width={600} height={400} />
 
                               </section>
                           </li>

@@ -30,7 +30,7 @@ import Checkbox from '@mui/material/Checkbox';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import {connect} from 'react-redux'
-import {setMaxPrice , setMinPrice} from '../../../../Redux/Action/Action'
+import {setMaxPrice , setMinPrice} from '../../../Redux/Action/Action'
 
 
 

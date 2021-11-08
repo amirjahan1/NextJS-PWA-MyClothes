@@ -1,6 +1,6 @@
 import React , {Fragment , useState} from 'react'
-import SliderHeader from "./Components/Product/SliderHeader/SliderHeader";
-import CardProduct from "./Components/Product/CardProduct/CardProduct";
+import SliderHeader from "../Components/Product/SliderHeader/SliderHeader";
+import CardProduct from "../Components/Product/CardProduct/CardProduct";
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 

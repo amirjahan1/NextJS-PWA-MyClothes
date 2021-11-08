@@ -48,7 +48,7 @@ function listSlide(){
                 <li onClick={navResponsive}> <Hamburger/> </li>
 
                 <li><Link href="/">
-                    <a > <Image src="/Images/Title/TitleIcon.png" height={55} width={55}/> </a>
+                    <a > <Image alt="my clothes pwa build with Amir Jahan" src="/Images/Title/TitleIcon.png" height={55} width={55}/> </a>
                     </Link> </li>
 
                 <li>

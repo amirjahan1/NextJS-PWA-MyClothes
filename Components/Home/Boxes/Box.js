@@ -21,7 +21,7 @@ const Box5 = () => {
                     <div className="opacity-60 bg-black w-full h-full rounded-xl block absolute t-0 z-10">
                     </div>
                     <h4 className="absolute z-20 text-3xl text-blueGray-300"> پوشاک بهاره</h4>
-                        <Image src="/Images/BoxUnderSlider1/spring.jpg" height="100%" width="100%" layout="fill"/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src="/Images/BoxUnderSlider1/spring.jpg" height="100%" width="100%" layout="fill"/>
                 </section>
             </div>
 
@@ -35,7 +35,7 @@ const Box5 = () => {
                     <div className="opacity-60 bg-black w-full h-full rounded-xl block absolute t-0 z-10">
                     </div>
                     <h4 className="absolute z-20 text-3xl text-blueGray-300"> پوشاک تابستانه</h4>
-                    <Image src="/Images/BoxUnderSlider1/summer.jpg" height="100%" width="100%" layout="fill"/>
+                    <Image alt="my clothes pwa build with Amir Jahan" src="/Images/BoxUnderSlider1/summer.jpg" height="100%" width="100%" layout="fill"/>
                 </section>
             </div>
 
@@ -49,7 +49,7 @@ const Box5 = () => {
                     <div className="opacity-60 bg-black w-full h-full rounded-xl block absolute t-0 z-10">
                     </div>
                     <h4 className="absolute z-20 text-3xl   text-blueGray-300"> مد سال</h4>
-                    <Image src="/Images/BoxUnderSlider1/Brand.jpg" height="100%" width="100%" layout="fill"/>
+                    <Image alt="my clothes pwa build with Amir Jahan" src="/Images/BoxUnderSlider1/Brand.jpg" height="100%" width="100%" layout="fill"/>
                 </section>
             </div>
 
@@ -63,7 +63,7 @@ const Box5 = () => {
                     <div className="opacity-60 bg-black w-full h-full rounded-xl block absolute t-0 z-10">
                     </div>
                     <h4 className="absolute z-20 text-3xl   text-blueGray-300"> پوشاک پاییزه</h4>
-                    <Image src="/Images/BoxUnderSlider1/fall.jpg" height="100%" width="100%" layout="fill"/>
+                    <Image alt="my clothes pwa build with Amir Jahan" src="/Images/BoxUnderSlider1/fall.jpg" height="100%" width="100%" layout="fill"/>
                 </section>
             </div>
 
@@ -77,7 +77,7 @@ const Box5 = () => {
                     <div className="opacity-60 bg-black w-full h-full rounded-xl block absolute t-0 z-10">
                     </div>
                     <h4 className="absolute z-20 text-3xl  text-blueGray-300"> پوشاک زمستانه</h4>
-                    <Image src="/Images/BoxUnderSlider1/winter.jpg" height="100%" width="100%" layout="fill"/>
+                    <Image alt="my clothes pwa build with Amir Jahan" src="/Images/BoxUnderSlider1/winter.jpg" height="100%" width="100%" layout="fill"/>
                 </section>
             </div>
 

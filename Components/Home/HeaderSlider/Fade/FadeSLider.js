@@ -19,16 +19,16 @@ export default class Fade extends Component {
                 <h2>Fade</h2>
                 <Slider {...settings}>
                     <div>
-                        <Image src={baseUrl + "/abstract01.jpg"}/>
+  <Image alt="my clothes pwa build with Amir Jahan" src={baseUrl + "/abstract01.jpg"}/>
                     </div>
                     <div>
-                        <img src={baseUrl + "/abstract02.jpg"}/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src={baseUrl + "/abstract02.jpg"}/>
                     </div>
                     <div>
-                        <img src={baseUrl + "/abstract03.jpg"}/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src={baseUrl + "/abstract03.jpg"}/>
                     </div>
                     <div>
-                        <img src={baseUrl + "/abstract04.jpg"}/>
+                        <Image alt="my clothes pwa build with Amir Jahan" src={baseUrl + "/abstract04.jpg"}/>
                     </div>
                 </Slider>
             </div>

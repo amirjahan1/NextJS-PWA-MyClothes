@@ -8,9 +8,9 @@ import '../styles/CardDetail.css'
 import {store , persistor} from "../Redux/Store/Store";
 import {Provider, useSelector} from "react-redux";
 import { PersistGate } from 'redux-persist/integration/react'
-import Footer from "./Components/Footer/Footer";
+import Footer from "../Components/Footer/Footer";
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "../Components/Navbar/Navbar";
 
 
 function MyApp({ Component, pageProps }) {

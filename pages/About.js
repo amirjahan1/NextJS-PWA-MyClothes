@@ -1,7 +1,7 @@
 import React , {Fragment} from "react";
 import Image from 'next/image'
 import Link from 'next/link'
-import Footer from "./Components/Footer/Footer";
+import Footer from "../Components/Footer/Footer";
 
 
 const About = () => {

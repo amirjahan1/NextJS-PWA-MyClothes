@@ -2,7 +2,7 @@ import React, {Fragment, useEffect} from "react";
 import Image from 'next/image'
 import Link from 'next/link'
 import {connect} from 'react-redux'
-import {addData} from "../../../../Redux/Action/Action";
+import {addData} from "../../../Redux/Action/Action";
 
 const CardProduct = (props) => {
 
@@ -14,7 +14,7 @@ const CardProduct = (props) => {
                     <div className="row">
                         <div className="el-wrapper">
                             <div className="box-up">
-                                <Image width={100} height={100} layout="fill" alt="" className="img" src={props.details.poster} alt=""/>
+                                <Image alt="my clothes pwa build with Amir Jahan" width={100} height={100} layout="fill" alt="" className="img" src={props.details.poster} alt=""/>
                                     <div className="img-info overflow-hidden">
                                         <div className="info-inner">
                                             <span className=" w-full block text-center text-base bg-black opacity-60 text-white">{props.details.name}</span>
