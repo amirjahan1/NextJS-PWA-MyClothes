@@ -1,18 +1,4 @@
-@font-face {
-    font-family:parastoo;
-    src: url("parastoo/web/parastoo.eot") format("eot");
-    src: url("parastoo/web/parastoo.ttf") format("ttf");
-    src: url("parastoo/web/parastoo.woff") format("woff");
-    src: url("parastoo/web/parastoo.woff2") format("woff2");
-}
 
-@font-face {
-    font-family: sahel;
-    src: url("sahel/sahel.eot") format("eot");
-    src: url("sahel/sahel.ttf") format("ttf");
-    src: url("sahel/sahel.woff") format("woff");
-    src: url("sahel/sahel.woff2") format("woff2");
-}
 
 @font-face {
     font-family: samim;
