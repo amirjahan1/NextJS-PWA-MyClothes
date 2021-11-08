@@ -1,55 +1,7 @@
 @font-face {
-    font-family:parastoo;
-    src: url("parastoo/web/parastoo.eot") format("eot");
-    src: url("parastoo/web/parastoo.ttf") format("ttf");
-    src: url("parastoo/web/parastoo.woff") format("woff");
-    src: url("parastoo/web/parastoo.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: sahel;
-    src: url("sahel/sahel.eot") format("eot");
-    src: url("sahel/sahel.ttf") format("ttf");
-    src: url("sahel/sahel.woff") format("woff");
-    src: url("sahel/sahel.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: samim;
-    src: url("samim/samim.eot") format("eot");
-    src: url("samim/samim.ttf") format("ttf");
-    src: url("samim/samim.woff") format("woff");
-    src: url("samim/samim.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: shabnam;
-    src: url("shabnam/shabnam.eot") format("eot");
-    src: url("shabnam/shabnam.ttf") format("ttf");
-    src: url("shabnam/shabnam.woff") format("woff");
-    src: url("shabnam/shabnam.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: tanha;
-    src: url("tanha/tanha.eot") format("eot");
-    src: url("tanha/tanha.ttf") format("ttf");
-    src: url("tanha/tanha.woff") format("woff");
-    src: url("tanha/tanha.woff2") format("woff2");
-}
-
-@font-face {
     font-family: vazir;
     src: url("vazir/Vazir.eot") format("eot");
     src: url("vazir/Vazir.ttf") format("ttf");
     src: url("vazir/Vazir.woff") format("woff");
     src: url("vazir/Vazir.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: yekan;
-    src: url("yekan/yekan.eot") format("eot");
-    src: url("yekan/yekan.ttf") format("ttf");
-    src: url("yekan/yekan.woff") format("woff");
-    src: url("yekan/yekan.woff2") format("woff2");
 }
