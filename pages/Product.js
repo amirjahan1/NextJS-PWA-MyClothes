@@ -70,7 +70,6 @@ const Product = (props) => {
 export async function getServerSideProps(context) {
     const res = await fetch(`https://okaliptoos-api.ir/digikala/index.php?q=TEXT`)
     const data = await res.json()
-
     if (!data) {
         return {
             redirect: {
@@ -80,12 +79,9 @@ export async function getServerSideProps(context) {
             },
         }
     }
-
     return {
         props: {data},
-
     }
-
 }
 
 

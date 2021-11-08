@@ -22,7 +22,7 @@ class MyDocument extends Document {
                     <meta name="description" content="My Clothes Ecommerce" />
 
                     {/*   META FOR PWA START      */}
-                    {/*<link rel="manifest" href="/manifest.json"/>*/}
+                    <link rel="manifest" href="/manifest.json"/>
                     {/*   META FOR PWA FINISH      */}
 
                     <link rel="icon" href="/Images/Title/TitleIcon.png" />
