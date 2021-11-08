@@ -11,6 +11,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 import Footer from "../Components/Footer/Footer";
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
+import Head from "next/head";
 
 
 function MyApp({ Component, pageProps }) {
@@ -19,6 +20,9 @@ function MyApp({ Component, pageProps }) {
   return (
          <Provider store={store}>
              <PersistGate loading={null} persistor={persistor}>
+                 <Head>
+                     <title>My clothes</title>
+                 </Head>
                  <Navbar/>
           <Component {...pageProps} />
                  <Footer/>

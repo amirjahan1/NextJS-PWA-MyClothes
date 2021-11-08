@@ -436,8 +436,6 @@ const NavbarLG = (props) => {
               >
 
                   <li>
-                      <Link href="/">
-                          <a>
 
                                   <IconButton>
 
@@ -469,8 +467,7 @@ const NavbarLG = (props) => {
                                   </IconButton>
 
 
-                          </a>
-                      </Link>
+
                   </li>
 
 
