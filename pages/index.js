@@ -43,18 +43,13 @@ export default function Index() {
 
           <Header/>
           <Slider1 SliderDetail={data}/>
-          <Box5/>
+       
           <SlickSlider/>
 
 
 
           <div className="flex flex-wrap  mt-32 icon6 px-10">
-              <Box6th icon={<ApartmentIcon/>}/>
-              <Box6th icon={<AirplaneTicketIcon/>}/>
-              <Box6th icon={<AddToHomeScreenIcon/>}/>
-              <Box6th icon={<AddAPhotoIcon/>}/>
-              <Box6th icon={<AccessAlarmIcon/>}/>
-              <Box6th icon={<AcUnitIcon/>}/>
+       
           </div>
       </Fragment>
 
