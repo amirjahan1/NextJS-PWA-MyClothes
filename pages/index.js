@@ -11,11 +11,11 @@ import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import AddToHomeScreenIcon from '@mui/icons-material/AddToHomeScreen';
 import AirplaneTicketIcon from '@mui/icons-material/AirplaneTicket';
 import ApartmentIcon from '@mui/icons-material/Apartment';
-import Head from 'next/head'
 
 
 
-export default function Home() {
+
+export default function Index() {
 
     const data = [
         {
